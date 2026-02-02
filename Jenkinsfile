@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/1ms24mc102/nodejs-app.git'
+                git url:'https://github.com/1ms24mc102/nodejs-app.git', branch:'main'
             }
         }
 
